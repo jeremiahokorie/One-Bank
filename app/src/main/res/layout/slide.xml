@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/slidelinear"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/sliding"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/circle1"/>
+
+    <TextView
+        android:id="@+id/titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:text="1Bank"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#fff"
+        android:text="Information is key with 1Bank get to Know your \n Bank better."
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nextArrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+       android:layout_marginTop="55dp"
+        android:background="@drawable/ic_navigate_next_black_24dp"/>
+
+</LinearLayout>
